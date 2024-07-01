@@ -1,0 +1,326 @@
+#SideBar {
+    background-color: rgb(44, 44, 44);
+    width: 20%;
+    height: 100vh;
+}
+
+.top {
+    color: white;
+    height: 8vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+
+}
+
+#font {
+    font-size: 30px;
+}
+
+.mid {
+
+    height: 8vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid #txt {
+    width: 230px;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.lmid {
+    color: rgb(165, 165, 165);
+    width: 90%;
+    margin: auto;
+    height: 70vh;
+}
+
+.topone {
+
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    width: 95%;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    transition: 0.2s ease-in;
+}
+
+.topone #h1 {
+    color: rgb(165, 165, 165);
+    text-decoration: none;
+
+}
+
+.topone:hover {
+    color: white;
+    background-color: gray;
+}
+
+.topone #font1 {
+    font-size: 20px;
+}
+
+.toptwo {
+
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    width: 95%;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    transition: 0.2s ease-in;
+}
+
+.toptwo #h1 {
+    color: rgb(165, 165, 165);
+    text-decoration: none;
+
+}
+
+#h1:hover{
+    color: white !important;
+}
+
+.toptwo:hover {
+    color: white !important;
+    background-color: gray;
+}
+
+.toptwo #font2 {
+    font-size: 20px;
+}
+
+
+.notification {
+    background-color: rgb(31, 154, 91);
+    color: white;
+    margin-left: 80px;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    border-radius: 5px;
+
+}
+
+.topthree {
+
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    width: 95%;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    top: 30px;
+    transition: 0.2s ease-in;
+}
+
+.topthree #h1 {
+    color: rgb(165, 165, 165);
+    text-decoration: none;
+
+}
+
+.topthree:hover {
+    color: white;
+    background-color: gray;
+}
+
+.topthree #font3 {
+    font-size: 20px;
+}
+
+.topfour {
+
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    width: 95%;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    top: 40px;
+    transition: 0.2s ease-in;
+}
+
+.topfour #h1 {
+    color: rgb(165, 165, 165);
+    text-decoration: none;
+}
+
+
+.topfour:hover {
+    color: white;
+    background-color: gray;
+}
+
+.topthree #font4 {
+    font-size: 20px;
+}
+
+.topfive {
+
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    width: 95%;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    transition: 0.2s ease-in;
+}
+
+.topfive #h1 {
+    color: rgb(165, 165, 165);
+    text-decoration: none;
+}
+
+.topfive:hover {
+    color: white;
+    background-color: gray;
+}
+
+.topfive #font5 {
+    font-size: 20px;
+}
+
+.topsix {
+
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    width: 95%;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    top: 60px;
+    transition: 0.2s ease-in;
+}
+
+.topsix #h1 {
+    color: rgb(165, 165, 165);
+    text-decoration: none;
+}
+
+.topsix:hover {
+    color: white;
+    background-color: gray;
+}
+
+.topsix #font6 {
+    font-size: 20px;
+}
+
+.topseven{
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    width: 95%;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    top: 60px;
+    transition: 0.2s ease-in;
+}
+
+.topseven #h1 {
+    color: rgb(165, 165, 165);
+    text-decoration: none;
+}
+
+.topseven:hover {
+    color: white;
+    background-color: gray;
+}
+
+.topseven #font7 {
+    font-size: 20px;
+}
+
+.last {
+
+    color: white;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.img {
+
+    border-radius: 50%;
+}
+
+#img {
+    width: 50px;
+    height: 7vh;
+    border-radius: 50%;
+}
+
+.user {
+
+    width: 130px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.arrows {
+
+    width: 40px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    gap: -20px !important;
+    height: 40px;
+    cursor: pointer;
+}
+
+#arr {
+    font-size: 20px;
+}
